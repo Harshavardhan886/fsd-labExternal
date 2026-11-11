@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>jQuery Example</title> 
+<script 
+src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+</head> 
+<body> 
+<p id="message">This is the original text.</p> 
+<button id="changeText">Click Me</button> 
+<script> 
+$(document).ready(function() { 
+$("#changeText").click(function() { 
+$("#message").text("The text has been changed!"); 
+}); 
+}); 
+</script> 
+</body> 
+</html>

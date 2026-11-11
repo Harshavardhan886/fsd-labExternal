@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Mod3_1 User Registration",
+			"type": "shell",
+			"command": "mvn",
+			"args": [
+				"-f",
+				"Mod3_1\\pom.xml",
+				"jetty:run"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
